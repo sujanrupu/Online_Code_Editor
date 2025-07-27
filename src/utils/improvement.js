@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { stripMarkdown, stripImprovementMarkdown } from "./stripMarkdown";
 
-const genAI = new GoogleGenerativeAI("AIzaSyBV-WuZ4o2Ja57tgdGZQlfQoxy07Fmy9Zg");
+const genAI = new GoogleGenerativeAI("");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 /**
